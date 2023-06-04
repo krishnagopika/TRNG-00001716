@@ -113,7 +113,7 @@ In the Waterfall Model, each stage can only continue when each of the previous s
 
 Agile methodology Agile methodology promotes iterative development with incremental releases.  It is iterative because it plans for the work of one iteration to be improved upon in subsequent iterations. It is incremental because completed work is delivered throughout the project.
 
-![Agile](/Day1/images/Agile.webp)
+![Agile](/Day1/images/Agile.PNG)
 
 The values and principles of the ‘Manifesto for Agile Software Development’ are:
 
@@ -139,7 +139,7 @@ The values and principles of the ‘Manifesto for Agile Software Development’ 
 - Self-organizing teams encourage great architectures, requirements, and designs
 - Regular reflections on how to become more effective
 
-![Agile vs Waterfall](images/gilevsWaterfall.webp)
+![Agile vs Waterfall](images/AgilevsWaterfall.PNG)
 
 
 The work and requirents are classified as:
