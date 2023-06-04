@@ -117,6 +117,7 @@ Open Git bash. The following are the initial settings to be configured:
 1. Name
 2. Email
 3. Default Editor 
+4. Line Ending <i>-optional</i>
 
 
 ### git config
@@ -155,6 +156,29 @@ Step 4: To open the core editor run the following command
 git config --gloabl -e
 ```
 
+End of lines:
+
+\r : carriage return
+\n : line free
+
+windows: CR, LF
+Mac: LF
+
+core.autocrlf is used to configure the end of lines.
+
+```
+git config --global core.autocrlf true
+```
+ (Windows)
+
+```
+git config --global core.autocrlf input
+```
+(Mac)
+
+
+
+
 ### Scopes
 
 `--global` represents the scope of the git configuration. Git has the following scopes:
@@ -174,6 +198,13 @@ git config --gloabl -e
 **Repository:** GIT repository is the collection of all the files of projects of the versions. The local repository is the repository initialized in the local system. remote repository is the repository created in Git Hub, Git labs etc.
 
 ## Basic git concepts
+
+#### GIT objects:
+
+1. commits
+2. Blobs(files)
+3. Trees(Directories)
+4. Tags
 
 ### git help
 
@@ -243,6 +274,13 @@ To remove files from the staging area the following command is used.
 git restore --staged file name
 ```
 
+### git stash
+
+`git statsh` is used to save all the stagged and unstagged changes. These changes can be omitted for commits until they are re-applied using `stash pop`. 
+
+For better understanding, a stash is like a bucket in which all the changes are staked on top of each other. When `git statsh` is used, all the changes are stacked and saved in the bucket and with `stash pop`, the changes are brought to back from the bucket. 
+Another alternative is ` stash apply`. Using this, the changes are saved in the stash and also applied to the working directory and staging area.
+
 ### git commit
 
 Git commit is used to save the changes to the local repository. The following command is run to commit the changes
@@ -259,6 +297,80 @@ Git commit contains the following information:
 4. Author: the user name and user email configured in git.
 5. Complete snapshot of the project.
 
+
+#### Best parctices for commit:
+
+- Commit should not be too small or too big
+- Commits should be logically seperate (ex: seperate for type and bug fix)
+- convention : message in present tense.
+
+### Viewing Commit:
+
+`git show id`
+`git show HEAD` (head pointer)
+`git show HEAD~number` to go back by the specified number.
+`git show HEAD~n:director`: to see the  final version, not differences
+`git ls-tree HEAD`: to see all folders and files
+
+<i><b>Note:</b> files are reperesented using blob and folderes as trees.</i>
+
+
+## <i>Additional Reading:</i>
+
+### Commiting without stagging ( beter not to use unless you are sure about the changes made):
+
+```
+git commit -a/-am "msg"
+
+```
+- a: all files
+- am: all modified files
+
+
+### Removing files
+
+
+- `git ls-files`: files in stagging area
+- `git add --> git commit` ( to remove files from stagging area)
+- `git rm` : to execute all the above steps.
+
+### Renaming or moving files:
+
+- mv file name new name
+- git add: removing old file and adding new file
+- git mv: can be used without git add command.
+
+
+### Removing files only from the stagging area:
+
+- `git rm --cached`: removes only from index( stagging area)  for once commit
+
+- `git rm --cached -r`: to recursively remove the file from stagging area 
+
+
+
+
+**Unstage the files:**
+
+`git restore --staged file names`
+
+<i><b>Note:</b>Git restore takes the snapshot of the file as per the last commit.</i>
+
+**Discarding the local chnages:**
+
+`git restore` 
+
+The version from staging enviorment is taken and copied into the directory.
+
+- `git clean` : to remove all the files even the untracked files.
+
+- `git clean -fd`: to force remove all directories
+
+**Restoring the files:**
+
+`git restore --source=HEAD~1` : to restore file from last commit.
+
+---
 
 ### .gitignore
 
@@ -300,6 +412,38 @@ To view, unstaged changes run the following command.
 ```
 git diff
 ```
+
+- --- : changes in old copy
+- +++: changes in new copy 
+- @@-old copy(line start, lines extracted)   
+- +new copy (line start, lines extracted)@@: header with info about what parts of file is changed.
+
+
+### <i>Additional Reading:</i>
+
+#### Visual Diff tools:
+
+1. KDiff3
+2. P4Merge
+3. WinMerge( only for windows)
+
+**VS code as diff tool:**
+
+ `git config --global difftool.vscode.cmd "path --wait --diff $LOCAL $REMOTE"`
+
+ - `git config --global  diff.tool vscode`  to set the diff tool
+- path :path set as system variable
+- --wait: wait while using vs code
+- --diff: using for diff
+- $LOCAL: placeolder for old file
+- $REMOTE: place holder for new files
+
+`git config --global -e` : to open the config file in the editor(In present case VS code)
+`git difftool` : to open difftool in vs code
+`git difftool --staged`: for staged changes
+
+
+---
 
 ### git log
 
@@ -402,5 +546,4 @@ git checkout branch-name
 ```
 
 For additional information about git commands refer to [git commands](https://git-scm.com/docs)
-
 

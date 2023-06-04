@@ -1,5 +1,0 @@
-# SDLC
-
-# Waterfall Model
-
-# Agile
