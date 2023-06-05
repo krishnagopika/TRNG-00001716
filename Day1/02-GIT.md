@@ -217,7 +217,7 @@ git command-name --help
 To get the short description run the following command
 
 ```
-git command-name --h
+git command-name -h
 ```
 
 ### Creating a Git repository
