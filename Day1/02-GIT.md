@@ -117,7 +117,7 @@ Open Git bash. The following are the initial settings to be configured:
 1. Name
 2. Email
 3. Default Editor 
-4. Line Ending <i>-optional</i>
+4. Line Ending <b><i>-optional</i></b>
 
 
 ### git config
