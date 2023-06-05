@@ -455,7 +455,7 @@ git log
 to get a oneline description of commits run the following command
 
 ```
-git log --oneline
+git log --oneline 
 ```
 
 <i><b>Note</b> <code>git log</code> lists out the information of all the commits starting from the most recent commit. To get information in initial to the most recent <code>git log --reverse</code> can be used.</i>
