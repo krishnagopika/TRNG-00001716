@@ -244,7 +244,6 @@ git init
 - `.git` file should not be edited because it might break the repository.
 - Normally `.git` file is hidden to avoid editing.
 
-
 ### git add
 
 Git add is used to add the the changes of working directory to the staging area. 
