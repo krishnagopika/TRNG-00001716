@@ -53,13 +53,13 @@ being developed and maintained?
 
 Software development lifecycle describes the phases of software developmnet and the order in which the phases are executed.
 
-1. Planning
-2. Requirement gathering and Analysis
-3. Design
-4. Implementation
-5. Testing
-6. Deployment
-7. Maintainance
+1.  Requirement gathering and Analysis
+2. Planning
+4. Design
+5. Implementation
+6. Testing
+7. Deployment
+8. Maintainance
 
 # Waterfall Model
 
