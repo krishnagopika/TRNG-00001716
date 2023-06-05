@@ -153,7 +153,7 @@ git config --global core.editor "code  --wait"
 Step 4: To open the core editor run the following command
 
 ```
-git config --gloabl -e
+git config --global -e
 ```
 
 End of lines:
