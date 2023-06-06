@@ -21,7 +21,7 @@ element comprises the opening tag and the closing tag and any content that lies 
 <element-name attribute-name="attribute-value">
 ```
 
-<i><b>Note: HTML5 allows uppercase atribute names and quotemarks can be ommited, but its a convention to use lowecase for attributes with quotes for attribute value.</b> 
+<i><b>Note: HTML5 allows uppercase atribute names and quotemarks can be ommited, but its a convention to use lowecase for attributes with quotes for attribute value.</b> </i>
 
 
 **Rules:**
