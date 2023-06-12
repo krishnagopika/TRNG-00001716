@@ -1,0 +1,59 @@
+:root{
+    --my-favorite-color:purple;
+}
+
+@font-face {
+    font-family: 'ChunkFiveRegular';
+    src: url(chunkfive.print.otf);
+}
+* {
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: blink;
+    /* line-height: 1.4em;    
+    word-spacing: 0.5em;
+    text-align: justify;
+    vertical-align: text-bottom;
+    text-indent: 20px; */
+}
+
+/* p, h2 label{
+    background-color: beige;
+} */
+
+.fields{
+    color: blueviolet !important ;
+}
+
+
+
+ul>li{
+    color: aqua;
+}
+
+blockquote{
+     background-color: var(--my-favorite-color,blue);
+}
+
+blockquote+q{
+    color: var(--my-favorite-color, blue);
+    
+}
+
+blockquote~q{
+    color: white;
+    background-color: rgb(218, 216, 216);
+}
+
+
+
+
+
+ /* body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+    /* background-color: black; */
+    /* border-top: 30%;
+    padding: 50%;
+
+ } */

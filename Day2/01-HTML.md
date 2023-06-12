@@ -208,7 +208,15 @@ The synatx for images is
 
 - Forms can be sent using one of two methods: get or post.
 
+### HTML5 form validation:
+
+
+
+
+
 ## Additional Markup
+
+
 
 ## Flash Video and Audio
 

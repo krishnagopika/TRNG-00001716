@@ -1,0 +1,15 @@
+.wrapper{
+
+    /* display: flex;
+    flex-direction: row;
+    flex:200px */
+    
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.items{
+    border: 5px solid orange;
+    flex:200px
+}
