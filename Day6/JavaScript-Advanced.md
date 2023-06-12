@@ -1,6 +1,14 @@
 
 ## Timimg Events
 
+### `setTimeout()`
+
+### `setInterval()`
+
+### `clearTimeout()`
+
+### `clearInterval()`
+
 
 
 
