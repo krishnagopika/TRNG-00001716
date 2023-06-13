@@ -1,15 +1,16 @@
 .wrapper{
 
     /* display: flex;
-    flex-direction: row;
-    flex:200px */
+    flex-direction: row; */
     
 
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-columns: repeat(4, 1fr); */
+    grid-template-columns: repeat(3, 3fr);
 }
 
 .items{
     border: 5px solid orange;
-    flex:200px
+    margin: 2px;
+    /* flex:200px; */
 }
