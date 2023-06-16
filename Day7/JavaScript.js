@@ -37,26 +37,7 @@
 //     console.log(weather);
 // }
 
-function getWeather() {
-    return new Promise(function(resolve,reject){
-        setTimeout(() => {
-            resolve('sunnny')
-            
-        }, 2000)
-    })
+function promise(){
+    return new Promise()
 }
 
-function onSuccess(data){
-    console.log("success "+data)
-}
-
-function onFailure(error){
-    console.log("failure ",error);
-
-}
-
-function printWeather(){
-    getWeather().then(console.log(onSuccess()))
-}
-
-printWeather();

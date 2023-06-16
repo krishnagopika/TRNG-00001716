@@ -62,3 +62,12 @@ How does the code work asynchronously?
 **Fetch API**
 
 -  The Fetch API provides a JavaScript interface for accessing and manipulating parts of the protocol, such as requests and responses.
+
+OOP:
+
+- Abstraction
+- Encapsulation
+- Ineritance
+- Polymorphism
+
+
