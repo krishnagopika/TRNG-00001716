@@ -43,4 +43,18 @@
 
 **JSON Server**
 
+```
+npm install json-server
+ ```
+```
+json-server --watch <filepath-- filename.json> --port 8081
+ ```
+- you can change the port number.
+```
+json-server --watch db.json
+```
+```
+npx json-server -w db.json -p 8080
+```
+
 
