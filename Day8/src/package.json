@@ -1,0 +1,20 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "it is a sample project to learn typescript",
+  "main": "js-sample.js",
+  "scripts": {
+    "ng":"ng",
+    "test": "ng test",
+    "build": "ng build"
+  },
+  "author": "krishna gopika",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs": "^7.5.2"
+  },
+
+  "devDependencies": {
+    "rxjs": "~7.5.2"
+  }
+}

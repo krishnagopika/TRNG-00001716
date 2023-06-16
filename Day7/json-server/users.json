@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+      "id": 3,
+      "username": "nasreen",
+      "password": "nasreen@1234",
+      "address": "Vijayawada, AP",
+      "interested-categories": [
+        "Politics",
+        "Technology"
+      ]
+    },
+    {
+      "id": 4,
+      "username": "siva",
+      "password": "siva@1234",
+      "address": "Narsaraopeta, AP",
+      "interested-categories": [
+        "Politics",
+        "Technology"
+      ]
+    },
+    {
+      "username": "krunal",
+      "password": "krunal@1234",
+      "address": "Nagpur, MH",
+      "interested-categories": [
+        "Politics",
+        "Technology"
+      ],
+      "id": 5
+    },
+    {
+      "username": "krishnagopika4",
+      "password": "krishna@1234",
+      "address": "Nellore, AP",
+      "interested-categories": [
+        "Technology",
+        "Business"
+      ],
+      "id": 6
+    },
+    {
+      "username": "krishnagopika",
+      "password": "krishna@1234",
+      "address": "Nellore, AP",
+      "interested-categories": [
+        "Politics",
+        "Technology"
+      ],
+      "id": 7
+    }
+  ],
+  "articles" : [
+    {
+      "username": "krishnagopika",
+      "password": "krishna@1234",
+      "address": "Nellore, AP",
+      "interested-categories": [
+        "Politics",
+        "Technology"
+      ],
+      "id": 7
+    }
+
+  ]
+}
