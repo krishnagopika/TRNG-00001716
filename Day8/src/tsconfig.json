@@ -1,8 +1,9 @@
 {
     "compilerOptions": {
         "noImplicitAny": false,
-        "target": "ES2020",
-        "alwaysStrict": true
+        "target": "ES2016",
+        "alwaysStrict": true,
+        "experimentalDecorators": true
 
         
     },

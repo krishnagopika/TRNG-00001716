@@ -31,12 +31,12 @@
       "id": 5
     },
     {
-      "username": "krishnagopika4",
+      "username": "krishnagopika",
       "password": "krishna@1234",
       "address": "Nellore, AP",
       "interested-categories": [
-        "Technology",
-        "Business"
+        "Politics",
+        "Technology"
       ],
       "id": 6
     },
@@ -50,18 +50,5 @@
       ],
       "id": 7
     }
-  ],
-  "articles" : [
-    {
-      "username": "krishnagopika",
-      "password": "krishna@1234",
-      "address": "Nellore, AP",
-      "interested-categories": [
-        "Politics",
-        "Technology"
-      ],
-      "id": 7
-    }
-
   ]
 }

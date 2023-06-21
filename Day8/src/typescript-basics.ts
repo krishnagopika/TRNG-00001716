@@ -230,14 +230,7 @@ const pointn: Readonly<CartesianCooordinates>= {
 //type assertions
 // let input = document.getElementById("name") as HTMLInputElement;
 
-let input = <HTMLInputElement> document.getElementById('name');
-
-
-
-
-
-
-
+// let input = <HTMLInputElement> document.getElementById('name');
 
 
 

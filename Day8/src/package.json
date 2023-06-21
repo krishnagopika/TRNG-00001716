@@ -9,12 +9,8 @@
     "build": "ng build"
   },
   "author": "krishna gopika",
-  "license": "ISC",
-  "dependencies": {
-    "rxjs": "^7.5.2"
-  },
+  "license": "ISC"
 
-  "devDependencies": {
-    "rxjs": "~7.5.2"
-  }
 }
+
+

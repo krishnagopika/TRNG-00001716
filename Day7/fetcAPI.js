@@ -15,21 +15,37 @@
 // //     .finally(console.log("GET request to NewsAPI"))
 // // }
 
-async function getSources(){
-    try{
-    const sources = await fetch('https://newsapi.org/v2/top-headlines/sources?apiKey=')
-    const data = await sources.json();
-    console.log(data);
-    document.getElementsByTagName('body')[0].innerHTML = data;
+// const { error } = require("console");
 
+// async function getSources(category){
+//     apikey = '74d781a497e65c0d58ce44340ff81bfe';
+//     console.log(category);
+//     try{
+//     const sources = await fetch(` https://gnews.io/api/v4/top-headlines?category=${category}&apikey=${apikey}`)
+//     const data = await sources.json();
+//     console.log(data);
+//     document.getElementsByTagName('body')[0].innerHTML = data;
+
+//     }
+//     catch(error){
+//         console.log(error);
+//         document.getElementsByTagName('body')[0].innerHTML = error;
+
+//     }
+
+// }
+
+async function login(){
+    try {
+        const data = await fetch(`http:localhost:8081/users`);
+        const users = await data.json();
+        const user = users.find(user)
     }
     catch(error){
         console.log(error);
-        document.getElementsByTagName('body')[0].innerHTML = error;
-
     }
-
 }
+login();
 // let data =  getSources();
 
 apikey = '74d781a497e65c0d58ce44340ff81bfe';

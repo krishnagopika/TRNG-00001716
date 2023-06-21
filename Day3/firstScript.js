@@ -154,3 +154,6 @@ Reference data types (Objects)
 i = 3;
 
 i = "Krishna";
+
+console.log(null==undefined)
+console.log('name'||true)

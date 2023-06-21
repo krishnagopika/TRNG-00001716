@@ -89,7 +89,7 @@ Note: after npm install `package-lock.json` is generated which containes the ver
 ## Special types
 
 1. any : type is not defined during declaration
-2. unknown: type is not defined during declaration but should be explicity type checked before performaing any operation. 
+2. unknown: type is not defined during declaration but should be explicity type checked before performaing any operation.
 
 ### Type Annotations
 
@@ -186,15 +186,46 @@ type StringArray = Array<string>;
 
 # Module Importing and Exporting
 
-Module: Modules are executed witun their own scope. The variables, classes, interfaces declared in a module are not visibleouseide the module(no global scope) unless they are exported using `export` forms and imported using `import` forms. 
-
-
-
-
-
+Module: Modules are executed within their own scope. The variables, classes, interfaces declared in a module are not visible ouseide the module(no global scope) unless they are exported using `export` forms and imported using `import` forms. 
 
 
 # Decorators
+
+A decorator is a function used to extend the functionality or annotate with datada for:
+
+1. Class
+2. Class Property
+3. Class Method
+4. Class Accessor
+5. Class method parameter
+
+
+There are five types of decorators:
+
+1. Class Decorator
+2. Property Decorator
+3. Method Decorator
+4. Accessor Decorator
+5. Parameter Decorator
+
+
+```ts
+@classDecorator
+class Bird {
+  @propertyDecorator
+  name: string;
+  
+  @methodDecorator
+  fly(
+    @parameterDecorator
+      meters: number
+  ) {}
+  
+  @accessorDecorator
+  get egg() {}
+}
+```
+
 
 
 
