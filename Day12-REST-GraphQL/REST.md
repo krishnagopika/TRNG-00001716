@@ -265,5 +265,5 @@ json-server --watch <filepath-- filename.json> --port 8081
 json-server --watch db.json
 ```
 ```
-npx json-server -w db.json -p 8080
+npx json-server -w db.json -p 8081
 ```
