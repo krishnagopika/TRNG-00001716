@@ -1,20 +1,5 @@
 "use strict";
 // import { unique as u } from "./file2";
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = function (d, b) {
-        extendStatics = Object.setPrototypeOf ||
-            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-            function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };
-        return extendStatics(d, b);
-    };
-    return function (d, b) {
-        if (typeof b !== "function" && b !== null)
-            throw new TypeError("Class extends value " + String(b) + " is not a constructor or null");
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -25,19 +10,11 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.IceCream = void 0;
 // console.log(u);
 // export {unique as notUniqie} from "./file2";
-var file2_1 = require("./file2");
-var IceCream = exports.IceCream = /** @class */ (function () {
-    function IceCream() {
-    }
-    IceCream = __decorate([
-        file2_1.Frozen
-    ], IceCream);
-    return IceCream;
-}());
-var froyo = /** @class */ (function (_super) {
-    __extends(froyo, _super);
-    function froyo() {
-        return _super !== null && _super.apply(this, arguments) || this;
-    }
-    return froyo;
-}(IceCream));
+const file2_1 = require("./file2");
+let IceCream = exports.IceCream = class IceCream {
+};
+exports.IceCream = IceCream = __decorate([
+    file2_1.Frozen
+], IceCream);
+class froyo extends IceCream {
+}

@@ -1,0 +1,15 @@
+{
+  "name": "decorators-examples",
+  "version": "1.0.0",
+  "description": "Implementation for decorators",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
+  },
+  "author": "krishna gopika",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
