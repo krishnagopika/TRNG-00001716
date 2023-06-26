@@ -8,3 +8,6 @@
 4. Property
 
 the syntax is `@Decorator-name`.
+
+refer the src/app.ts file for implementation
+
