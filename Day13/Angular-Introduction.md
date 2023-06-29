@@ -96,8 +96,6 @@ SPA (Single Page Application) is a web application that dynamically rewrites a s
 
 - The following image explains the working of SPA.
 
-![SPA](/resources/SPA.PNG)
-
 - For initial request from the client, an HTML page is the response.
 - From the second request the page is dynamically rewritten using JavaScript APIs.
 
@@ -219,7 +217,7 @@ Angular creates a component; renders it; creates and renders its children; check
 
 The below diagram illustrates the order in which the eight hooks are executed.
 
-![Lifecycle Hooks](/modules/resources/hooks.png)
+![Lifecycle Hooks](/images/hooks.png)
 
 **constructor()** - The constructor of the component class gets executed first, before the execution of any other lifecycle hook events. If we need to inject any dependencies into the component, then the constructor is the best place to do so.
 
@@ -248,13 +246,13 @@ In Angular data is shared among the parent and child components using
 
 Angular uses `@Input` and `@Output` decorators to flow data between components. We can also use Angular services to flow data between the components. If we have to pass data into a component we use the `@Input` decorator, and if we have to emit the event or data from a component we use the `@Output` decorator with the `EventEmitter` API.
 
-![Component Interaction](/modules/resources/component-interaction.PNG)
+![Component Interaction](/images/component-interaction.PNG)
 
 ### `@Input` decorator
 
 In Angular, the [`@Input`](https://angular.io/api/core/Input) decorator is defined in the [@angular/core](https://angular.io/api/core) package that marks a class field as an **input property** and supplies configuration metadata.
 
-![Input flow](/modules/resources/input-flow.PNG)
+![Input flow](/images/input-flow.PNG)
 
 ### Component events with EventEmitter and `@Output`
 
@@ -262,7 +260,7 @@ In Angular, a component can emit an event using [`@Output`](https://angular.io/a
 
 `@Output` decorator that marks a class field as an **output property** and supplies configuration metadata.
 
-![Output Flow](/modules/resources/output-flow.PNG)
+![Output Flow](/images/output-flow.PNG)
 
 ### Event Emitters in Angular
 
@@ -345,7 +343,7 @@ Other types of binding are :
 ## 2-way binding
 Conventionally two-way binding is achieved by combining property binding/text interpolation and event binding, but in Angular, this is achieved by "[()]". Two-way binding is used to listen for events and update values.
 
-![Two Way Binding](/modules/resources/TwoWayBinding.PNG)
+![Two Way Binding](/images/TwoWayBinding.PNG)
 
 ## Pipes
 
@@ -510,7 +508,7 @@ A service can be created and injected in the following steps:
 
 The following picture explains the pub/sub design pattern.
 
-![Pub/Sub](/modules/resources/PubSub.PNG)
+![Pub/Sub](/images/PubSub.PNG)
 
 
 **Pro's of Pub/Sub design pattern:**
@@ -529,7 +527,7 @@ The following picture explains the pub/sub design pattern.
 
 Consider a user uploading a video in youtube.
 
-![Youtube Pub/Sub model](/modules/resources/PubSubExample.PNG)
+![Youtube Pub/Sub model](/images/PubSubExample.PNG)
 
 1. The upload service will take the video and sends response to user once the video is uploaded and after that the user can disconnect.
 2. The upload service will publish the raw mp4 video to th message queue.
@@ -544,7 +542,7 @@ Observer pattern is used to implement one-to-many relationship between objects. 
 
 The following image explains the observer pattern.
 
-![Observer Pattern](/modules/resources/Observer.PNG)
+![Observer Pattern](/images/Observer.PNG)
 
 The two main stratergies in observer pattern are:
 
@@ -931,7 +929,7 @@ describe('welcome', ()=>{
 
 karma debug:
 
-![Welcome](/modules/resources/welcome.png)
+![Welcome](/images/welcome.png)
 
 
 2. A function compute that returns 0 if number is negative and increment of number if its positive.
@@ -981,7 +979,7 @@ describe('compute',() => {
 
 karma debug:
 
-![compute](/modules/resources/compute.png)
+![compute](/images/compute.png)
 
 
 
