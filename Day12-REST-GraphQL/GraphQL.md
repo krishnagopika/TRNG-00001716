@@ -54,9 +54,13 @@ A GraphQL object type has a name and fields, and every field should be a concret
 The Scalar types:
 
 **Int:** A signed 32‐bit integer.
+
 **Float:** A signed double-precision floating-point value.
+
 **String:** A UTF‐8 character sequence.
+
 **Boolean:** true or false
+
 **ID:** A unique identifier that is not human-readable.
 
 ### Enum
