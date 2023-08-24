@@ -119,7 +119,7 @@ space too. This is known as white space collapsing.
 content has strong importance. For example, the words
 contained in this element might be said with strong emphasis. By default, browsers will show the contents of a `<strong>` element in bold.
 
-- The <em> element indicates emphasis that subtly changes
+- The `<em>` element indicates emphasis that subtly changes
 the meaning of a sentence. By default browsers will show
 the contents of an `<em>`element in italic.
 
