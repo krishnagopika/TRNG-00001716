@@ -121,9 +121,9 @@ contained in this element might be said with strong emphasis. By default, browse
 
 - The <em> element indicates emphasis that subtly changes
 the meaning of a sentence. By default browsers will show
-the contents of an <em> element in italic.
+the contents of an `<em>`element in italic.
 
-## <i>Additioanl Reading</i>
+## <i> Additioanl Reading </i>
 
 
 1. Quotations: `<blockquote>` and `<q>`.
