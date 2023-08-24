@@ -166,7 +166,7 @@ the contents of an <em> element in italic.
 
 ## Links
 
-`<a>``</a>` is used to link one webage in the other webiste(absolute url) or the existing website(relative url).
+`<a>` `</a>` is used to link one webage in the other webiste(absolute url) or the existing website(relative url).
 
 ```html
 <a href="link"></a>
@@ -174,7 +174,7 @@ the contents of an <em> element in italic.
 ```
 
 - to open the link in new tab use `target= "_blank"`.
-- to create a link to an email use `<a href="mailto:email">`email</a>
+- to create a link to an email use `<a href="mailto:email">` email</a>
 - To link to specific part of same page ids can be used.
 - To link to specific part of different page user absolute-url/#id ad href. 
 
