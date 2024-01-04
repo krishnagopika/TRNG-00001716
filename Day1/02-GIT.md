@@ -42,7 +42,7 @@ Move Up/Down (Throttle)
 Tilt Forward/Backward (Pitch)
 Move Left/Right ( Roll)
 Camera
-Rotate  Left/Right ( Roll )
+Rotate  Left/Right ( Yaw )
 ```
 
 Now consider that The purpose of the drone is changed and now the drone is used to spray pesticides instead of image capturing.
@@ -54,7 +54,7 @@ With new update the version is 2.0.0
 Move Up/Down (Throttle)
 Tilt Forward/Backward (Pitch)
 Move Left/Right ( Roll)
-Rotate  Left/Right ( Roll )
+Rotate  Left/Right ( Yaw )
 Camera
 Storage tank and spray equipment.
 ```
